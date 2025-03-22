@@ -6,6 +6,7 @@ pool:
 parameters:
   - name: surname
     type: string
+    default: Tahir Bashir
   
   - name: image
     displayName: Pool Image
@@ -17,10 +18,10 @@ parameters:
     - macOS-latest
 
 variables:
-  - group: library   
+  # - group: library  
 
   - name: var1
-    value: "Value of var1" 
+    value: "Value of var1"
 
 stages:
 - stage: stage1 
